@@ -9,7 +9,7 @@ with(hpcdat,{
     plot(hpcdat$Date, hpcdat$Sub_metering_1, col = "black", xlab="", ylab="Energy sub metering", type ='l')
     lines(hpcdat$Date, hpcdat$Sub_metering_2, col = "red", type = 'l')
     lines(hpcdat$Date, hpcdat$Sub_metering_3, col = "blue", type = 'l')
-    legend("topright", lty=c(1,1,1),col = c("black", "red",'blue'), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+    legend("topright", lty=c(1,1,1),bty ='n',col = c("black", "red",'blue'), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
     plot(hpcdat$Date, hpcdat$Global_reactive_power, xlab="datetime", ylab="Global_reactive_power",  type = "l")
 })
 ## close png file
