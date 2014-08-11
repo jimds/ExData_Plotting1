@@ -20,3 +20,9 @@ hpcdat[,6]=as.character(hpcdat[,6])
 hpcdat[,6]=as.numeric(hpcdat[,6])
 hpcdat[,7]=as.character(hpcdat[,7])
 hpcdat[,7]=as.numeric(hpcdat[,7])
+
+## run plotting scripts
+source('plot1.R')
+source('plot2.R')
+source('plot3.R')
+source('plot4.R')
